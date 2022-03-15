@@ -1,0 +1,149 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background: #0d192b;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  gap: 20px;
+}
+
+.content {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #14253d;
+  padding: 1em;
+  border-radius: 10px;
+  width: 15em;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+img.floating-cube {
+  height: 15em;
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 1.3em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.paragraph {
+  color: #72849d;
+  font-size: 14px;
+}
+
+.extra-information {
+  margin-top: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extra-information .cost-stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.extra-information .cost-stuff .euthereum {
+  height: 0.9em;
+}
+
+.extra-information .cost-stuff .cost {
+  color: #08fcf8;
+  font-size: 0.8em;
+  padding-left: 0.6em;
+}
+
+.extra-information .time-stuff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.extra-information .time-stuff .clock {
+  height: 1em;
+}
+
+.extra-information .time-stuff .time {
+  color: #8bacd9;
+  font-size: 0.8em;
+  padding-left: 0.6em;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid #2f415b;
+  margin-top: 1.5em;
+}
+
+.creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.85em;
+}
+
+.creator .author {
+  border-radius: 100%;
+  border: 1px solid white;
+  height: 1.6em;
+}
+
+.creator .creation {
+  color: #8bacd9;
+  font-size: 0.8em;
+}
+
+.creator .creation span {
+  color: white;
+}
+
+.footer {
+  color: white;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #8bacd9;
+}
+/*# sourceMappingURL=style.css.map */

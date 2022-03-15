@@ -1,0 +1,121 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    background: hsl(216, 50%, 16%);
+    padding: 1em;
+    border-radius: 10px;
+    width: 15em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+img.floating-cube {
+    height: 15em;
+    border-radius: 10px;
+}
+
+.title {
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: hsl(215, 18%, 53%);
+    font-size: 14px;
+}
+
+.extra-information {
+    margin-top: 1.4em;
+    display: flex;
+    justify-content: space-between;
+
+    .cost-stuff {
+        display: flex;
+        align-items: center;
+    
+        .euthereum {
+            height: 0.9em;
+        }
+    
+    
+        .cost {
+            color: rgb(8,252,248);
+            font-size: 0.8em;
+            padding-left: 0.6em;
+        }
+
+    }
+
+    .time-stuff {
+        display: flex;
+        align-items: center;
+
+        .clock {
+            height: 1em;
+        }
+
+        .time {
+            color: rgb(139,172,217);
+            font-size: 0.8em;
+            padding-left: 0.6em;
+        }
+
+    }
+
+}
+
+.line {
+    width: 100%;
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-top: 1.5em;
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: 0.85em;
+
+    .author {
+        border-radius: 100%;
+        border: 1px solid white;
+        height: 1.6em;
+    }
+
+    .creation {
+        color: rgb(139,172,217);
+        font-size: 0.8em;
+
+        span {
+            color: white;
+        }
+    }
+}
+
+.footer {
+    color: white;
+    font-size: 0.9em;
+
+    a {
+        color: rgb(139,172,217);
+    }
+}
